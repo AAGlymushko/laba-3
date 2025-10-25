@@ -1,0 +1,31 @@
+body
+{
+    background-color: rgb(19, 16, 29);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button
+{
+    height: 50px;
+    width: 75px;  
+    background-color: rgb(67, 31, 184);
+    color: rgb(221, 252, 255);
+    border: 1px solid #14042d;
+    margin: 0 5px;
+}
+
+.pos
+{
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.pos > div:first-child 
+{
+    margin-bottom: 30px;
+}
